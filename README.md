@@ -31,3 +31,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Test
 npm run test
+
+## Live Version
+https://in-house-challenge-r3q6.vercel.app/
