@@ -9,6 +9,7 @@ const CountryList = ({ countries = [] }) => {
   const [value, setValue] = useState("");
   const [region, setRegion] = useState("All");
 
+  // filter countries based on search value and region
   const searchedCountries = countries.filter((country) => {
     return country.name.common.toLowerCase().includes(value.toLowerCase());
   });

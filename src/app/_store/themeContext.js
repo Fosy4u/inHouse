@@ -1,6 +1,7 @@
 "use client";
 import { createContext, ReactElement, useEffect, useState } from "react";
 
+// Create a context for the theme
 export const ThemeContext = createContext({
   theme: "light",
   toggleTheme: () => {},

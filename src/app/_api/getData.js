@@ -1,4 +1,5 @@
 
+// fetch data from the API
 export const getData = async (url) => {
     const res = await fetch(url, {
         next: {

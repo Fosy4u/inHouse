@@ -3,6 +3,7 @@ import { ThemeProvider } from "./_store/themeContext";
 import "./_styles/globals.css";
 import { Nunito_Sans } from "next/font/google";
 
+// Load the Nunito Sans font with the latin subset
 const nunitoSans = Nunito_Sans({ subsets: ["latin"] });
 
 export const metadata = {
